@@ -3,9 +3,8 @@
     Private _radio As UShort
 
     Sub New(nombre As String, radio As UShort)
-        MyBase.New()
-        Me.Nombre = ""
-        Me.radio = 0
+        MyBase.New(nombre)
+        Me.Radio = radio
     End Sub
 
     Public Property Radio As UShort

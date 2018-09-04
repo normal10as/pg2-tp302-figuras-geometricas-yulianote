@@ -3,9 +3,8 @@
     Private _lado As UShort
 
     Sub New(nombre As String, lado As UShort)
-        MyBase.New()
-        Me.Nombre = ""
-        Me.Lado = 0
+        MyBase.New(nombre)
+        Me.Lado = lado
     End Sub
 
     Public Property Lado As UShort

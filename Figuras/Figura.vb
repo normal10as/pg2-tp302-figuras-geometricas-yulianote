@@ -2,7 +2,7 @@
 
     Private _nombre As String
 
-    Sub New()
+    Sub New(nomre As String)
         _nombre = ""
     End Sub
 
