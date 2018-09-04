@@ -2,8 +2,8 @@
 
     Private _nombre As String
 
-    Sub New(nomre As String)
-        _nombre = ""
+    Sub New(nombre As String)
+        Me.Nombre = nombre
     End Sub
 
     Public Property Nombre As String
