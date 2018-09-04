@@ -1,0 +1,3 @@
+﻿Module RectanguloTests
+
+End Module
